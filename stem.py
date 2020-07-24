@@ -1,3 +1,5 @@
+//This code is how to stem words by deleting extra words from them
+//In this case we are stemming these words "Python","Pythoner","Pythoned","Pythoning","Pythons","Pythonly" into Python as there stem is python.
 from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
 ps=PorterStemmer()
